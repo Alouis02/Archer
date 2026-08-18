@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: c301b938a45ee0d42938375a53fffa24
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PP_Standard_Material
+    second: {fileID: 2100000, guid: 1ed5c689ba8eacc4c8e9d3b8ba968880, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Bow(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.Rig2
+      parentName: Bow(Clone)
+      position: {x: 0.060203332, y: -0.008521048, z: -0.35002825}
+      rotation: {x: 0.92076457, y: -0.09995602, z: -0.3767018, w: -0.017237026}
+      scale: {x: 24.069328, y: 24.069326, z: 24.069328}
+    - name: Bone
+      parentName: Armature.Rig2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end
+      parentName: Bone
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.Rig3
+      parentName: Bow(Clone)
+      position: {x: 0.08771478, y: 0.003510601, z: 0.11025299}
+      rotation: {x: 0.12948932, y: -0.07662776, z: -0.79248625, w: 0.5910383}
+      scale: {x: 24.069326, y: 24.069326, z: 24.069328}
+    - name: Bone
+      parentName: Armature.Rig3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.70386416, y: -0.37058735, z: 0.3705873, w: 0.47948447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end
+      parentName: Bone
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.Rig4
+      parentName: Bow(Clone)
+      position: {x: -0.007537849, y: -0.0043201284, z: 0.4047956}
+      rotation: {x: 0.29745942, y: -0.18351977, z: -0.75109166, w: 0.5600891}
+      scale: {x: 24.069328, y: 24.069328, z: 24.069326}
+    - name: Bone
+      parentName: Armature.Rig4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end
+      parentName: Bone
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.Rig5
+      parentName: Bow(Clone)
+      position: {x: -0.17431937, y: 0.0087679755, z: -0.004258749}
+      rotation: {x: -0.69659704, y: -0.01933381, z: 0.71719056, w: 0.0040524825}
+      scale: {x: 24.069324, y: 24.069328, z: 24.069328}
+    - name: Bone
+      parentName: Armature.Rig5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end
+      parentName: Bone
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ArmatureRig1
+      parentName: Bow(Clone)
+      position: {x: 0.1004007, y: 0.00547176, z: -0.004390628}
+      rotation: {x: 0.9990402, y: -0.007201014, z: -0.036857884, w: -0.022548962}
+      scale: {x: 24.069328, y: 24.069326, z: 24.069328}
+    - name: Bone
+      parentName: ArmatureRig1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end
+      parentName: Bone
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera
+      parentName: Bow(Clone)
+      position: {x: -7.3588915, y: 4.958309, z: 6.925791}
+      rotation: {x: 0.09062847, y: 0.89379627, z: -0.20997298, w: 0.3857799}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: Light
+      parentName: Bow(Clone)
+      position: {x: -4.0762453, y: 5.903862, z: -1.005454}
+      rotation: {x: 0.52327543, y: -0.34203392, z: 0.72694236, w: 0.28416622}
+      scale: {x: 100.00001, y: 100, z: 100}
+    - name: PP_Theme_02_Bow_001.001
+      parentName: Bow(Clone)
+      position: {x: 0.1004007, y: 0.00547176, z: -0.004390628}
+      rotation: {x: 0.71953887, y: 0, z: -0, w: 0.69445217}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
